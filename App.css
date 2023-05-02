@@ -1,0 +1,44 @@
+.link {
+	color: black;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.link:active {
+	color: black !important;
+}
+
+.link li {
+	border: none;
+}
+
+.flex-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 50px;
+}
+
+.active {
+	border-right: 4px solid black !important;
+	color: black !important;
+	background-color: rgb(226, 226, 226) !important;
+}
+
+.current-img {
+	width: 100%;
+	width: 180px;
+}
+
+.pointer:hover {
+	cursor: pointer !important;
+}
+
+.line-solid{
+	height: 2px;
+	background-color: #dadada;
+}
+
+.small-icon{
+	width: 48px;
+}
